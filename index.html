@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Pet-2</title>
+    <meta charset="utf-8">
+
+    <!-- P5 Libraries -->
+    <script src="p5-libraries/p5.js"></script>
+    <script src="p5-libraries/p5.dom.min.js"></script>
+    <script src="p5-libraries/p5.min.js"></script>
+    <script src="p5-libraries/p5.sound.min.js"></script>
+    <script src="p5-libraries/p5.play.js"></script>
+
+    <!-- Firbase Libraries -->
+    <script src="database-libraries/firebase-app.js"></script>
+    <script src="database-libraries/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCkyjGgGaU3wYVTObgCksKm--TYjIgIFbE",
+        authDomain: "virtual-pet-2-acf4f.firebaseapp.com",
+        databaseURL: "https://virtual-pet-2-acf4f.firebaseio.com",
+        projectId: "virtual-pet-2-acf4f",
+        storageBucket: "virtual-pet-2-acf4f.appspot.com",
+        messagingSenderId: "890420725974",
+        appId: "1:890420725974:web:55be1b8b4c3e246f01e177"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <!-- Main js file -->
+    <script src="sketch.js"></script>
+
+    <!-- load classes -->
+    <script src="classes/Food.js"></script>
+  </body>
+</html>
